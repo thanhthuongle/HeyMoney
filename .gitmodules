@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/thanhthuongle/DATN-web-20215485.LeThanhThuong.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/thanhthuongle/DATN-api-20215485.LeThanhThuong.git
