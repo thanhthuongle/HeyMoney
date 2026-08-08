@@ -1,6 +1,9 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/thanhthuongle/HeyMoney-Web.git
+	branch = master
+
 [submodule "backend"]
 	path = backend
 	url = https://github.com/thanhthuongle/HeyMoney-API.git
+	branch = master
