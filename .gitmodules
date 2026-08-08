@@ -1,6 +1,6 @@
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/thanhthuongle/DATN-web-20215485.LeThanhThuong.git
+	url = https://github.com/thanhthuongle/HeyMoney-Web/tree/master
 [submodule "backend"]
 	path = backend
-	url = https://github.com/thanhthuongle/DATN-api-20215485.LeThanhThuong.git
+	url = https://github.com/thanhthuongle/HeyMoney-API/tree/master
