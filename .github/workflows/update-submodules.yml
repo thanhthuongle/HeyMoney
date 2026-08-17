@@ -16,18 +16,22 @@ jobs:
 
     steps:
       - name: Checkout parent repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: Update submodules
         run: |
+          set -e
+
           git submodule sync --recursive
           git submodule update --remote --recursive
 
       - name: Commit changes
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
